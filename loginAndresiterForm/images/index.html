@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+         <nav class="navbar">
+             <a href="#" class="logo">
+                <img src="logo.jpg" alt="">
+                <h2>Sabbir Coding</h2>
+             </a>
+             <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+             </ul>
+             <button class="login-btn" onclick="run()">Login</button>
+         </nav>
+    </header>
+    <!--Popup form-->
+    <div class="blur-bg-overly">
+
+    </div>
+    <div class="from-popup">
+        <i class="close-btn fa-solid fa-xmark"></i>
+         <div class="from-box login">
+             <div class="from-details">
+                 <h2>Welcome Back</h2>
+                 <p>please login and use your personal information</p>
+             </div>
+             <div class="from-content">
+                 <h2>Login</h2>
+                 <form action="#" class="from">
+                     <div class="input-field">
+                         <input type="text">
+                         <label for="">Email</label>
+                     </div>
+                     <div class="input-field">
+                        <input type="password">
+                        <label>password</label>
+                     </div>
+                     <a href="#" class="forgot-pass">Forgot Password ?</a>
+                     <button type="submit">log in </button>
+                 </form>
+                 <div class="bottom-link">
+                     Don't have an acount ?
+                     <a href="#">Signup</a>
+                 </div>
+             </div>
+         </div>
+         <div class="from-box signup ">
+             <div class="from-details">
+                 <h2>Create account</h2>
+                 <p>sign up now </p>
+             </div>
+             <div class="from-content">
+                 <h2>SignUP</h2>
+                 <form action="#" class="from">
+                     <div class="input-field">
+                         <input type="text">
+                         <label for="">Email</label>
+                     </div>
+                     <div class="input-field">
+                        <input type="password">
+                        <label>password</label>
+                     </div>
+                     <div class="policy-text">
+                         <input type="checkbox" id="policy">
+                         <label for="policy">
+                             i agree the <a href="#">Terms & Condition</a>
+                         </label>
+                     </div>
+                     <a href="#" class="forgot-pass">Forgot Password ?</a>
+                     <button type="submit">sign up </button>
+                 </form>
+                 <div class="bottom-link">
+                     Already have an acount ?
+                     <a href="#"> Login </a>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <script src="lg.js"></script>
+</body>
+</html>
